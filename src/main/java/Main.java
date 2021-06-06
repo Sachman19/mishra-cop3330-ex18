@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Press 1 if you wish to convert from Fahrenheit to Celsius, Press 0 to convert from Celsius to Fahrenheit");
+        System.out.print("Press 1 if you wish to convert from Fahrenheit to Celsius, Press 0 to convert from Celsius to Fahrenheit. ");
         int temp = input.nextInt();
         double Fah = 0, Cel = 0;
 
